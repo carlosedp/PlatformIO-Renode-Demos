@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "inventory*": "ini",
+        "**/docker-compose.yml": "yaml",
+        "**/*.yml": "ansible",
+        "*rc": "shellscript",
+        "Dockerfile.*": "dockerfile",
+        "*.yaml": "yaml",
+        "task.h": "c"
+    }
+}
