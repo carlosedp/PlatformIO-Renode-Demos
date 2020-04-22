@@ -23,7 +23,7 @@ CFLAGS = -Os -g -Wall -std=c99 -msoft-float -mno-string -mno-multiple -mno-vsx -
 ASFLAGS = $(CFLAGS)
 LDFLAGS = -T powerpc.lds
 
-.PHONY: clean indocker renode
+.PHONY: clean renode
 
 all: hello_world.bin
 
