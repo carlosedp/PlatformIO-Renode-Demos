@@ -1,18 +1,6 @@
 # Microwatt on Renode
 
-This repo contains an example application and the commands to run in a simulated [Microwatt](https://github.com/antonblanchard/microwatt) processor on Antmicro's [Renode](https://renode.io/).
-
-This requires Renode to be built from master branch.
-
-Building Renode from master branch:
-
-First install Mono for your platform as described [here](https://github.com/renode/renode/blob/master/README.rst#installing-dependencies).
-
-```sh
-git clone https://github.com/renode/renode
-./build -s
-sudo ln -s renode /usr/local/bin/renode
-```
+This repo contains an example application and the commands to run in a simulated [Microwatt](https://github.com/antonblanchard/microwatt) processor on Antmicro's [Renode](https://renode.io/). This requires Renode version 1.10 or up.
 
 To build the sample binary:
 
@@ -26,3 +14,4 @@ To run on Renode:
 make renode
 ```
 
+There is a [work in progress](https://github.com/platformio/platformio-core/issues/3474) to add support to native building for ppc64le on PlatformIO.
