@@ -1,6 +1,6 @@
 # Microwatt on Renode
 
-This repo contains an example application and the commands to run in a simulated [Microwatt](https://github.com/antonblanchard/microwatt) processor on Antmicro's [Renode](https://renode.io/). This requires Renode version 1.10 or up.
+This repo contains an example application and the commands to run in a simulated [Microwatt](https://github.com/antonblanchard/microwatt) processor on Antmicro's [Renode](https://renode.io/). Microwatt is an open source ppc64le. This requires Renode version 1.10 or up.
 
 To build the sample binary:
 
